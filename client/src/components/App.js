@@ -31,6 +31,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
+
         <div id="CSIBridge">
           <div id="page-background"></div>
           <Header />
@@ -55,6 +56,7 @@ class App extends Component {
           <Route path="/VerifyStudents" component={VerifyStudents} />
           <Route path="/profile" component={Profile} />
         </div>
+        
       </BrowserRouter>
     );
   }
